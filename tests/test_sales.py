@@ -1,5 +1,3 @@
-from unittest import result
-
 import pytest
 
 from methods.sales import calculate_discounted_price, calculate_final_price, calculate_order_initial_value, calculate_order_summary, calculate_price_with_vat, calculate_sale_value, calculate_profit, calculate_profit_margin, calculate_total_cost, calculate_vat_value, classify_discount, classify_order, classify_profit
