@@ -103,14 +103,8 @@ def test_calculate_price_with_vat_over_100():
   
         
 def test_calculate_final_price():
-    sale_value = 600
-    discount_percent = 10
-    vat_percent = 21
-
-    discounted_price = calculate_discounted_price(sale_value, discount_percent)
-    final_price = calculate_price_with_vat(discounted_price, vat_percent)
-
-    assert final_price == 653.4
+    result = calculate_final_price(3, 200, 10, 21)
+    assert result == 653.4
     
     
 def test_calculate_vat_value():
