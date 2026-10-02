@@ -78,6 +78,7 @@ def calculate_order_summary(quantity, unit_price, unit_cost, discount_percent, v
         "discount_percent": discount_percent,
         "discount_value": discount_value,
         "discounted_price": discounted_price,
+        "vat_percent": vat_percent,
         "vat_value": vat_value,
         "final_price": final_price,
         "total_cost": total_cost,
@@ -123,3 +124,5 @@ def calculate_total_cost(quantity, unit_cost):
 
     total_cost = quantity * unit_cost
     return total_cost
+
+

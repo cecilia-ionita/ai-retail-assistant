@@ -1,0 +1,4 @@
+order_id,quantity,unit_price,unit_cost,discount_percent,vat_percent
+ORD001,3,200,150,10,21
+ORD002,5,120,90,0,21
+ORD003,2,100,120,10,21
