@@ -86,3 +86,37 @@ I learned how to create and configure README.md, .gitignore and PROJECT_LOG.md.
 - Profit margin is calculated as profit divided by sales value.
 - A profit margin of 0.25 represents 25%.
 - pytest can automatically discover and execute tests from the `tests` package.
+
+
+## Sprint 2 - Order Processing and Assistant Insights
+
+### Objectives
+
+- Add CSV-based order processing.
+- Calculate business summary indicators.
+- Generate assistant-style insights and recommendations.
+- Prepare the project for GitHub and portfolio use.
+
+### Completed Tasks
+
+- Added sample retail order data in `data/orders.csv`.
+- Created `methods/order_processing.py`.
+- Implemented order loading and processing functions.
+- Implemented business KPIs: total revenue, total profit, total orders, profit margin and average values.
+- Added functions to identify largest, smallest, most profitable and least profitable orders.
+- Created `methods/assistant.py`.
+- Added rule-based business insights and recommendations.
+- Created `main.py` as a simple project demo.
+- Expanded automated test coverage for order processing and assistant logic.
+- Updated the README for portfolio presentation.
+- Renamed the project configuration file to `pyproject.toml`.
+
+### Verification
+
+- Demo command: `python main.py`
+- Test command: `python -m pytest -q`
+- Result: 153 tests passed.
+
+### Portfolio Notes
+
+This project now demonstrates Python business logic, CSV data processing, retail KPI analysis, automated testing and simple AI-style recommendation generation without using external APIs or private data.
